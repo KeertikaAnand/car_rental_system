@@ -1,4 +1,4 @@
-# Car Rental System
+# Coimbatore Drives
 
 A full-stack application for managing car rentals, featuring a FastAPI backend, ReactJS frontend, and Python SDK.
 
