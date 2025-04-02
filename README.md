@@ -141,16 +141,3 @@ rental = cars_api.rent_car(
     }
 )
 print(f"Rental created with ID: {rental.id}")
-
-
-**##Testing**
-#Backend Tests
-cd backend
-pytest
-
-#Frontend Tests
-cd frontend
-npm test
-
-#License
-This project is licensed under the MIT License - see the LICENSE file for details.
