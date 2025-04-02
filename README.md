@@ -26,31 +26,7 @@ A full-stack application for managing car rentals, featuring a FastAPI backend, 
 - npm or yarn
 - OpenAPI Generator CLI
 
-## Project Structure
-
-car-rental-system/
-├── backend/            # FastAPI service
-│   ├── app/
-│   │   ├── main.py         # Main application entry point
-│   │   ├── models.py       # Database models
-│   │   ├── schemas.py      # Pydantic schemas
-│   │   └── routes/         # API endpoints
-│   ├── tests/            # Backend tests
-│   └── requirements.txt  # Python dependencies
-├── frontend/           # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/     # React components
-│   │   ├── services/       # API service calls
-│   │   └── App.js          # Main React component
-│   └── package.json      # Frontend dependencies
-├── car_rental_sdk/       # Generated Python SDK
-├── scripts/            # Automation scripts
-│   ├── setup.sh          # Setup script
-│   └── run.sh            # Execution script
-├── database/           # Database scripts
-│   └── seed_data.sql     # Initial database data
-└── README.md           # This readme file
+file
 
 ## Setup Instructions
 
@@ -165,7 +141,7 @@ rental = cars_api.rent_car(
     }
 )
 print(f"Rental created with ID: {rental.id}")
-#Testing
+##Testing
 #Backend Tests
 cd backend
 pytest
